@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Careers - Politeknik Negeri Batam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- css tailwind link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <style>
+         body { 
+            font-family: 'Poppins', sans-serif; 
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        }
+        .hover-scale:hover {
+            transform: scale(1.03);
+            transition: all 0.3s ease;
+        }
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+    <!-- Navbar -->
+    <nav class="gradient-bg text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center space-x-4">
+                    <img src="img/logo.png" alt="Logo" class="h-8 w-8 rounded-full">
+                    <span class="text-2xl font-bold">POLTEK BATAM</span>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="registrasi.php" class="text-white hover:text-blue-200 px-3 py-2 rounded-md text-sm font-medium flex items-center">
+                        <i class="fas fa-user-plus mr-2"></i> 
+                        Lamar Sekarang
+                    </a>
+                    <a href="login-admin.php" class="text-white hover:text-blue-200 px-3 py-2 rounded-md text-sm font-medium flex items-center">
+                        <i class="fas fa-user-plus mr-2"></i> 
+                        Login Admin
+                    </a>
+                  
+                </div>
+            </div>
+        </div>
+    </nav>
+
+   <!-- hero section -->
+    <div class="py-20 bg-white bg-opacity-90">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+                    <h1>
+                        <span class="block text-sm font-semibold uppercase tracking-wide text-blue-600 sm:text-base lg:text-sm xl:text-base">
+                            <i class="fas fa-star mr-2"></i>Bergabunglah dengan Keunggulan Akademik Kami
+                        </span>
+                        <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
+                            <span class="block text-gray-900">Bentuk Masa Depan</span>
+                            <span class="block text-blue-600">Pendidikan Teknologi</span>
+                        </span>
+                    </h1>
+                    <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                        Bergabunglah dengan fakultas terkemuka Politeknik Negeri Batam dan jadilah bagian dari lembaga pendidikan teknologi terkemuka di Indonesia.
+                    </p>
+                    <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+                        <div class="grid grid-cols-2 gap-4">
+                            <a href="form.php" class="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white gradient-bg hover:opacity-90 transition-all duration-300 md:py-4 md:text-lg md:px-10">
+                                <i class="fas fa-paper-plane mr-2"></i>  Lamar Sekarang
+                            </a>
+                            <a href="" class="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-blue-100 hover:bg-blue-200 transition-all duration-300 md:py-4 md:text-lg md:px-10">
+                                <i class="fas fa-users mr-2"></i> Temui Tim Kami
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+                    <div class="relative mx-auto w-full rounded-xl shadow-2xl lg:max-w-md overflow-hidden hover-scale">
+                        <div class="relative block w-full bg-white rounded-xl overflow-hidden">
+                            <div class="p-8">
+                                <div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl p-6 space-y-6">
+                                    <div class="flex items-center space-x-4">
+                                        <div class="bg-blue-600 rounded-full p-3 text-white">
+                                            <i class="fas fa-microscope text-xl"></i>
+                                        </div>
+                                        <h3 class="text-lg font-medium text-gray-900">Peluang Penelitian</h3>
+                                    </div>
+                                    <div class="flex items-center space-x-4">
+                                        <div class="bg-blue-600 rounded-full p-3 text-white">
+                                            <i class="fas fa-chart-line text-xl"></i>
+                                        </div>
+                                        <h3 class="text-lg font-medium text-gray-900">Pertumbuhan Karir</h3>
+                                    </div>
+                                    <div class="flex items-center space-x-4">
+                                        <div class="bg-blue-600 rounded-full p-3 text-white">
+                                            <i class="fas fa-globe text-xl"></i>
+                                        </div>
+                                        <h3 class="text-lg font-medium text-gray-900">Jaringan Global</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">
+                    <i class="fas fa-briefcase mr-2"></i>Posisi yang Tersedia
+                </h2>
+                <p class="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Peluang Karir</p>
+            </div>
+
+            <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-100 hover-scale">
+                    <div class="text-xl font-medium text-gray-900 mb-4">
+                        <i class="fas fa-laptop-code text-blue-600 mr-2"></i>Teknik Informatika
+                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Pengembangan Software</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Kecerdasan Buatan</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Keamanan Siber</li>
+                    </ul>
+                    <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Detail Posisi</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-100 hover-scale">
+                    <div class="text-xl font-medium text-gray-900 mb-4">
+                        <i class="fas fa-microchip text-blue-600 mr-2"></i>Teknik Elektronika
+                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Sistem Embedded</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>IoT</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Robotika</li>
+                    </ul>
+                    <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Detail Posisi</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-100 hover-scale">
+                    <div class="text-xl font-medium text-gray-900 mb-4">
+                        <i class="fas fa-industry text-blue-600 mr-2"></i>Teknik Mesin
+                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Manufaktur Modern</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Desain Industri</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Otomasi</li>
+                    </ul>
+                    <a href="#" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Detail Posisi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="bg-gradient-to-br from-blue-600 to-indigo-700 py-16 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base font-semibold tracking-wide uppercase">
+                    <i class="fas fa-microscope mr-2"></i>Keunggulan Penelitian
+                </h2>
+                <p class="mt-2 text-3xl font-extrabold sm:text-4xl">Pusat Inovasi & Riset</p>
+            </div>
+
+            <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="bg-white bg-opacity-10 p-6 rounded-xl backdrop-blur-lg hover-scale">
+                    <div class="text-4xl font-bold mb-2">15+</div>
+                    <p class="text-blue-100">Laboratorium Penelitian</p>
+                </div>
+
+                <div class="bg-white bg-opacity-10 p-6 rounded-xl backdrop-blur-lg hover-scale">
+                    <div class="text-4xl font-bold mb-2">50M+</div>
+                    <p class="text-blue-100">Dana Penelitian/Tahun</p>
+                </div>
+
+                <div class="bg-white bg-opacity-10 p-6 rounded-xl backdrop-blur-lg hover-scale">
+                    <div class="text-4xl font-bold mb-2">100+</div>
+                    <p class="text-blue-100">Publikasi Internasional</p>
+                </div>
+
+                <div class="bg-white bg-opacity-10 p-6 rounded-xl backdrop-blur-lg hover-scale">
+                    <div class="text-4xl font-bold mb-2">25+</div>
+                    <p class="text-blue-100">Mitra Industri</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">
+                    <i class="fas fa-graduation-cap mr-2"></i>Kehidupan Akademik
+                </h2>
+                <p class="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Suasana Kampus yang Inspiratif</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="relative rounded-xl overflow-hidden hover-scale">
+                    <img src="img/gambar.jpg" alt="Campus Life" class="w-full h-64 object-cover"/>
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black p-6">
+                        <h3 class="text-white text-xl font-bold">Fasilitas Modern</h3>
+                        <p class="text-gray-200">Ruang kelas smart classroom, perpustakaan digital, dan area kolaborasi</p>
+                    </div>
+                </div>
+
+                <div class="relative rounded-xl overflow-hidden hover-scale">
+                    <img src="img/gambar2.jpg" alt="Research Activities" class="w-full h-64 object-cover"/>
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black p-6">
+                        <h3 class="text-white text-xl font-bold">Komunitas Peneliti</h3>
+                        <p class="text-gray-200">Kolaborasi aktif dengan peneliti dari berbagai disiplin ilmu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">
+                    <i class="fas fa-clipboard-list mr-2"></i>Proses Lamaran
+                </h2>
+                <p class="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Bergabung dengan Kami</p>
+            </div>
+
+            <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-4">
+                <div class="bg-white p-6 rounded-xl shadow-lg hover-scale">
+                    <div class="h-12 w-12 mx-auto mb-4 rounded-full bg-blue-600 flex items-center justify-center text-white text-xl">1</div>
+                    <h3 class="text-lg font-medium text-center mb-2">Kirim Aplikasi</h3>
+                    <p class="text-gray-500 text-center">Lengkapi formulir online dan unggah dokumen yang diperlukan</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg hover-scale">
+                    <div class="h-12 w-12 mx-auto mb-4 rounded-full bg-blue-600 flex items-center justify-center text-white text-xl">2</div>
+                    <h3 class="text-lg font-medium text-center mb-2">Review Dokumen</h3>
+                    <p class="text-gray-500 text-center">Tim kami akan mengevaluasi kualifikasi dan pengalaman Anda</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg hover-scale">
+                    <div class="h-12 w-12 mx-auto mb-4 rounded-full bg-blue-600 flex items-center justify-center text-white text-xl">3</div>
+                    <h3 class="text-lg font-medium text-center mb-2">Wawancara</h3>
+                    <p class="text-gray-500 text-center">Diskusi mendalam tentang pengalaman dan visi akademik Anda</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg hover-scale">
+                    <div class="h-12 w-12 mx-auto mb-4 rounded-full bg-blue-600 flex items-center justify-center text-white text-xl">4</div>
+                    <h3 class="text-lg font-medium text-center mb-2">Bergabung</h3>
+                    <p class="text-gray-500 text-center">Mulai perjalanan akademik Anda bersama kami</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">
+                    <i class="fas fa-question-circle mr-2"></i>FAQ
+                </h2>
+                <p class="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Pertanyaan Umum</p>
+            </div>
+
+            <div class="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="text-lg font-medium text-gray-900">Apa kualifikasi minimal untuk melamar?</h3>
+                    <p class="mt-2 text-gray-500">Minimal S2 untuk posisi asisten profesor, dengan pengalaman mengajar dan penelitian yang relevan.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="text-lg font-medium text-gray-900">Bagaimana dengan kesempatan penelitian?</h3>
+                    <p class="mt-2 text-gray-500">Kami menyediakan dana penelitian internal dan mendukung kolaborasi dengan institusi internasional.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="text-lg font-medium text-gray-900">Apakah ada dukungan relokasi?</h3>
+                    <p class="mt-2 text-gray-500">Ya, kami menyediakan paket relokasi komprehensif untuk dosen yang berasal dari luar kota.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="text-lg font-medium text-gray-900">Bagaimana dengan pengembangan karir?</h3>
+                    <p class="mt-2 text-gray-500">Tersedia program mentoring, pelatihan berkala, dan jalur karir yang jelas untuk kemajuan akademik.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="gradient-bg py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                Siap Bergabung dengan Tim Kami?
+            </h2>
+            <p class="mt-4 text-xl text-blue-100">
+                Jadilah bagian dari perjalanan kami dalam membentuk masa depan pendidikan teknologi
+            </p>
+            <div class="mt-8 flex justify-center gap-4">
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50">
+                    <i class="fas fa-paper-plane mr-2"></i>Lamar Sekarang
+                </a>
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-800 hover:bg-blue-900">
+                    <i class="fas fa-calendar mr-2"></i>Jadwalkan Konsultasi
+                </a>
+            </div>
+        </div>
+    </div>
+
+   
+
+   <!-- footer -->
+    <footer class="gradient-bg text-white">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">
+                        <i class="fas fa-university mr-2"></i>POLTEK BATAM
+                    </h3>
+                    <p class="text-blue-100">Mencetak generasi unggul dan profesional di bidang teknologi.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">
+                        <i class="fas fa-phone mr-2"></i>Kontak
+                    </h3>
+                    <p class="text-blue-100">Email: info@poltekbatam.ac.id</p>
+                    <p class="text-blue-100">Phone: (021) 1234-5678</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">
+                        <i class="fas fa-map-marker-alt mr-2"></i>Lokasi
+                    </h3>
+                    <p class="text-blue-100">Jl. Ahmad Yani, Batam Center,</p>
+                    <p class="text-blue-100">Kepulauan Riau, Indonesia</p>
+                </div>
+            </div>
+            <div class="border-t border-blue-400 pt-8 text-center">
+                <p class="text-blue-100">© 2024 POLITEKNIK NEGERI BATAM. By Timothy William, XI PPLG 1.</p>
+                <div class="flex justify-center space-x-6 mt-4">
+                    <a href="#" class="text-blue-100 hover:text-white">
+                        <i class="fab fa-facebook text-xl"></i>
+                    </a>
+                    <a href="#" class="text-blue-100 hover:text-white">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-blue-100 hover:text-white">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-blue-100 hover:text-white">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
