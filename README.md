@@ -14,7 +14,7 @@ Sistem pendaftaran dosen berbasis web yang memungkinkan para dosen untuk mendaft
 - Sistem autentikasi untuk admin
 - Responsive design untuk berbagai ukuran layar
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack :
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -57,5 +57,5 @@ Sistem pendaftaran dosen berbasis web yang memungkinkan para dosen untuk mendaft
 
 ## 📞 Kontak
 
-Email: timothycod3r@gmail.com
+Email: timothycod3r@gmail.com <br>
 Instagram : tmthywll_
